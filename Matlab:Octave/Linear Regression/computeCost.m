@@ -14,8 +14,8 @@ J = 0;
 %               You should set J to the cost.
 
 A = (X * theta) - y;
-B = A .^ 2;
-J = (sum (B))/(2 * m);
+B = A' * A; % faster numerical operation in octave
+J = B/(2 * m);
 
 
 % =========================================================================
