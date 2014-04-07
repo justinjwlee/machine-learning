@@ -16,5 +16,8 @@ _1. Linear regression_
 - Feature Scaling
  
 _2. Logistic regression_
+- Sigmoid function
+- Logistic Regression Cost function
+- Regularization
 
 > Most of the resource in Matlab were obtained from Coursera Stanford Machine Learning Course
